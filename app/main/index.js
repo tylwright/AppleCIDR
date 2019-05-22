@@ -7,6 +7,5 @@ function quitApp() {
 }
 
 function showInfo() {
-    // Upon calling this function, the info window will be shown.
-    ipcRenderer.send('open-info');
+    ipcRenderer.send('open-info-window')
 }
